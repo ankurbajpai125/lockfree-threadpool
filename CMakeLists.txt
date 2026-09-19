@@ -27,3 +27,4 @@ target_link_libraries(tp INTERFACE Threads::Threads)
 
 enable_testing()
 add_subdirectory(tests)
+add_subdirectory(benchmarks)
