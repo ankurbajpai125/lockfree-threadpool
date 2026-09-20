@@ -1,5 +1,7 @@
 # lockfree-threadpool
 
+![CI](https://github.com/ankurbajpai125/lockfree-threadpool/actions/workflows/ci.yml/badge.svg)
+
 A small C++17 concurrency library: a thread pool and a lock-free
 single-producer/single-consumer (SPSC) ring buffer, with tests, sanitizer
 builds, and a benchmark against a mutex-based queue.
