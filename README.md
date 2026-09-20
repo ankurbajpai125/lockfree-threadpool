@@ -32,7 +32,7 @@ Sanitizer builds (Linux, GCC/Clang):
 
 One producer thread, one consumer thread, 1,000,000 items per run, capacity
 1024, median of 5 runs, Release build. Measured on WSL2 Ubuntu, GCC 15.2,
-[CPU model], 8 logical cores.
+Intel Core i5-1035G1, 8 logical cores.
 
 | Queue          | Throughput        |
 |----------------|-------------------|
